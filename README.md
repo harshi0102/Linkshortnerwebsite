@@ -4,20 +4,25 @@ This is an open source project from [DevProjects](http://www.codementor.io/proje
 Find the project requirements here: [Link shortener website](https://www.codementor.io/projects/web/link-shortener-website-brqjanf6zq)
 
 ## Tech/framework used
+This is a client side application that uses the browser to make API calls. 
+- Goal is to help bussiness rank higher in searches and reduce number of characters users have to type out to navigate to website.
+- Shorter URLS increase optimization
+- Create Account with TinyURL API to generate your own TokenKey(Free).
 Built with HTML,CSS , Javascript and Bitly API.
 
 ## Screenshots and demo
 Design View: <img src="Screenshot_4.jpg" alt="screenshot" width="650" height="auto">
+<div align="left">
 Live Demo : https://linkshortnerwebsite.netlify.app/
             https://harshi0102.github.io/Linkshortnerwebsite/
+
+ </div>           
 ## Installation
 Instructions for other developers on how to install and run your code on their local environment.
 Clone the repository: https://github.com/harshi0102/Linkshortnerwebsite.git
 
-Create a .env file and add your Bitly access token:
-BITLY_ACCESS_TOKEN=your-access-token-here
+Configure the environment variables
+The link shortener website uses the Bitly API to shorten URLs. To use the API, you need to obtain an access token from Bitly.
 
-npm start
-Open your browser and go to http://localhost:3000 to view the website.
 ## License
 This Project is [MIT](https://github.com/harshi0102/Linkshortnerwebsite/blob/main/LICENSE) licensed.
