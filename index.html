@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>URL Shortener</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    label {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    input[type="url"] {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 400px;
+      max-width: 100%;
+    }
+
+    button[type="submit"] {
+      padding: 10px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0069d9;
+    }
+
+    #short-url {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 18px;
+    }
+
+    #short-url a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    #short-url a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>URL Shortener</h1>
+  <form>
+    <label for="long-url">Long URL:</label>
+    <input type="url" id="long-url" required>
+    <button type="submit">Shorten</button>
+  </form>
+  <div id="short-url"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
