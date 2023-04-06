@@ -13,10 +13,10 @@ Built with HTML,CSS , Javascript and Bitly API.
 ## Screenshots and demo
 Design View: <img src="Screenshot_4.jpg" alt="screenshot" width="650" height="auto">
 <div align="left">
-Live Demo : https://linkshortnerwebsite.netlify.app/
+Live Demo : https://linkshortnerwebsite.netlify.app/  and 
             https://harshi0102.github.io/Linkshortnerwebsite/
-
- </div>           
+ </div> 
+           
 ## Installation
 Instructions for other developers on how to install and run your code on their local environment.
 Clone the repository: https://github.com/harshi0102/Linkshortnerwebsite.git
